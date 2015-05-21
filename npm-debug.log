@@ -1,0 +1,760 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@2.9.1
+3 info using node@v0.12.3
+4 verbose readDependencies loading dependencies from /Users/bear/src/ampersand-foo/foo/package.json
+5 warn package.json foo-ampersand-test@0.0.1 No repository field.
+6 verbose install where, deps [ '/Users/bear/src/ampersand-foo/foo',
+6 verbose install   [ 'ampersand-app',
+6 verbose install     'ampersand-dom',
+6 verbose install     'ampersand-form-view',
+6 verbose install     'ampersand-input-view',
+6 verbose install     'ampersand-model',
+6 verbose install     'ampersand-rest-collection',
+6 verbose install     'ampersand-router',
+6 verbose install     'ampersand-view',
+6 verbose install     'ampersand-view-switcher',
+6 verbose install     'andlog',
+6 verbose install     'async',
+6 verbose install     'clientconfig',
+6 verbose install     'domify',
+6 verbose install     'domready',
+6 verbose install     'favicon-setter',
+6 verbose install     'getconfig',
+6 verbose install     'hapi',
+6 verbose install     'local-links',
+6 verbose install     'lodash',
+6 verbose install     'moonboots_hapi',
+6 verbose install     'stylizer',
+6 verbose install     'templatizer' ] ]
+7 verbose install where, peers [ '/Users/bear/src/ampersand-foo/foo', [] ]
+8 verbose installManyTop reading for lifecycle /Users/bear/src/ampersand-foo/foo/package.json
+9 info preinstall foo-ampersand-test@0.0.1
+10 verbose readDependencies loading dependencies from /Users/bear/src/ampersand-foo/foo/package.json
+11 silly cache add args [ 'ampersand-dom@^1.2.1', null ]
+12 verbose cache add spec ampersand-dom@^1.2.1
+13 silly cache add parsed spec { raw: 'ampersand-dom@^1.2.1',
+13 silly cache add   scope: null,
+13 silly cache add   name: 'ampersand-dom',
+13 silly cache add   rawSpec: '^1.2.1',
+13 silly cache add   spec: '>=1.2.1 <2.0.0',
+13 silly cache add   type: 'range' }
+14 silly addNamed ampersand-dom@>=1.2.1 <2.0.0
+15 verbose addNamed ">=1.2.1 <2.0.0" is a valid semver range for ampersand-dom
+16 silly addNameRange { name: 'ampersand-dom',
+16 silly addNameRange   range: '>=1.2.1 <2.0.0',
+16 silly addNameRange   hasData: false }
+17 silly mapToRegistry name ampersand-dom
+18 silly mapToRegistry using default registry
+19 silly mapToRegistry registry https://registry.npmjs.org/
+20 silly mapToRegistry uri https://registry.npmjs.org/ampersand-dom
+21 verbose addNameRange registry:https://registry.npmjs.org/ampersand-dom not in flight; fetching
+22 silly cache add args [ 'ampersand-form-view@^3.1.1', null ]
+23 verbose cache add spec ampersand-form-view@^3.1.1
+24 silly cache add parsed spec { raw: 'ampersand-form-view@^3.1.1',
+24 silly cache add   scope: null,
+24 silly cache add   name: 'ampersand-form-view',
+24 silly cache add   rawSpec: '^3.1.1',
+24 silly cache add   spec: '>=3.1.1 <4.0.0',
+24 silly cache add   type: 'range' }
+25 silly addNamed ampersand-form-view@>=3.1.1 <4.0.0
+26 verbose addNamed ">=3.1.1 <4.0.0" is a valid semver range for ampersand-form-view
+27 silly addNameRange { name: 'ampersand-form-view',
+27 silly addNameRange   range: '>=3.1.1 <4.0.0',
+27 silly addNameRange   hasData: false }
+28 silly mapToRegistry name ampersand-form-view
+29 silly mapToRegistry using default registry
+30 silly mapToRegistry registry https://registry.npmjs.org/
+31 silly mapToRegistry uri https://registry.npmjs.org/ampersand-form-view
+32 verbose addNameRange registry:https://registry.npmjs.org/ampersand-form-view not in flight; fetching
+33 silly cache add args [ 'ampersand-input-view@^4.0.5', null ]
+34 verbose cache add spec ampersand-input-view@^4.0.5
+35 silly cache add parsed spec { raw: 'ampersand-input-view@^4.0.5',
+35 silly cache add   scope: null,
+35 silly cache add   name: 'ampersand-input-view',
+35 silly cache add   rawSpec: '^4.0.5',
+35 silly cache add   spec: '>=4.0.5 <5.0.0',
+35 silly cache add   type: 'range' }
+36 silly addNamed ampersand-input-view@>=4.0.5 <5.0.0
+37 verbose addNamed ">=4.0.5 <5.0.0" is a valid semver range for ampersand-input-view
+38 silly addNameRange { name: 'ampersand-input-view',
+38 silly addNameRange   range: '>=4.0.5 <5.0.0',
+38 silly addNameRange   hasData: false }
+39 silly mapToRegistry name ampersand-input-view
+40 silly mapToRegistry using default registry
+41 silly mapToRegistry registry https://registry.npmjs.org/
+42 silly mapToRegistry uri https://registry.npmjs.org/ampersand-input-view
+43 verbose addNameRange registry:https://registry.npmjs.org/ampersand-input-view not in flight; fetching
+44 silly cache add args [ 'ampersand-model@^5.0.3', null ]
+45 verbose cache add spec ampersand-model@^5.0.3
+46 silly cache add parsed spec { raw: 'ampersand-model@^5.0.3',
+46 silly cache add   scope: null,
+46 silly cache add   name: 'ampersand-model',
+46 silly cache add   rawSpec: '^5.0.3',
+46 silly cache add   spec: '>=5.0.3 <6.0.0',
+46 silly cache add   type: 'range' }
+47 silly addNamed ampersand-model@>=5.0.3 <6.0.0
+48 verbose addNamed ">=5.0.3 <6.0.0" is a valid semver range for ampersand-model
+49 silly addNameRange { name: 'ampersand-model',
+49 silly addNameRange   range: '>=5.0.3 <6.0.0',
+49 silly addNameRange   hasData: false }
+50 silly mapToRegistry name ampersand-model
+51 silly mapToRegistry using default registry
+52 silly mapToRegistry registry https://registry.npmjs.org/
+53 silly mapToRegistry uri https://registry.npmjs.org/ampersand-model
+54 verbose addNameRange registry:https://registry.npmjs.org/ampersand-model not in flight; fetching
+55 silly cache add args [ 'ampersand-rest-collection@^4.0.0', null ]
+56 verbose cache add spec ampersand-rest-collection@^4.0.0
+57 silly cache add parsed spec { raw: 'ampersand-rest-collection@^4.0.0',
+57 silly cache add   scope: null,
+57 silly cache add   name: 'ampersand-rest-collection',
+57 silly cache add   rawSpec: '^4.0.0',
+57 silly cache add   spec: '>=4.0.0 <5.0.0',
+57 silly cache add   type: 'range' }
+58 silly addNamed ampersand-rest-collection@>=4.0.0 <5.0.0
+59 verbose addNamed ">=4.0.0 <5.0.0" is a valid semver range for ampersand-rest-collection
+60 silly addNameRange { name: 'ampersand-rest-collection',
+60 silly addNameRange   range: '>=4.0.0 <5.0.0',
+60 silly addNameRange   hasData: false }
+61 silly mapToRegistry name ampersand-rest-collection
+62 silly mapToRegistry using default registry
+63 silly mapToRegistry registry https://registry.npmjs.org/
+64 silly mapToRegistry uri https://registry.npmjs.org/ampersand-rest-collection
+65 verbose addNameRange registry:https://registry.npmjs.org/ampersand-rest-collection not in flight; fetching
+66 silly cache add args [ 'ampersand-router@^3.0.1', null ]
+67 verbose cache add spec ampersand-router@^3.0.1
+68 silly cache add parsed spec { raw: 'ampersand-router@^3.0.1',
+68 silly cache add   scope: null,
+68 silly cache add   name: 'ampersand-router',
+68 silly cache add   rawSpec: '^3.0.1',
+68 silly cache add   spec: '>=3.0.1 <4.0.0',
+68 silly cache add   type: 'range' }
+69 silly addNamed ampersand-router@>=3.0.1 <4.0.0
+70 verbose addNamed ">=3.0.1 <4.0.0" is a valid semver range for ampersand-router
+71 silly addNameRange { name: 'ampersand-router',
+71 silly addNameRange   range: '>=3.0.1 <4.0.0',
+71 silly addNameRange   hasData: false }
+72 silly mapToRegistry name ampersand-router
+73 silly mapToRegistry using default registry
+74 silly mapToRegistry registry https://registry.npmjs.org/
+75 silly mapToRegistry uri https://registry.npmjs.org/ampersand-router
+76 verbose addNameRange registry:https://registry.npmjs.org/ampersand-router not in flight; fetching
+77 silly cache add args [ 'ampersand-view@^7.0.1', null ]
+78 verbose cache add spec ampersand-view@^7.0.1
+79 silly cache add parsed spec { raw: 'ampersand-view@^7.0.1',
+79 silly cache add   scope: null,
+79 silly cache add   name: 'ampersand-view',
+79 silly cache add   rawSpec: '^7.0.1',
+79 silly cache add   spec: '>=7.0.1 <8.0.0',
+79 silly cache add   type: 'range' }
+80 silly addNamed ampersand-view@>=7.0.1 <8.0.0
+81 verbose addNamed ">=7.0.1 <8.0.0" is a valid semver range for ampersand-view
+82 silly addNameRange { name: 'ampersand-view',
+82 silly addNameRange   range: '>=7.0.1 <8.0.0',
+82 silly addNameRange   hasData: false }
+83 silly mapToRegistry name ampersand-view
+84 silly mapToRegistry using default registry
+85 silly mapToRegistry registry https://registry.npmjs.org/
+86 silly mapToRegistry uri https://registry.npmjs.org/ampersand-view
+87 verbose addNameRange registry:https://registry.npmjs.org/ampersand-view not in flight; fetching
+88 silly cache add args [ 'ampersand-view-switcher@^2.0.0', null ]
+89 verbose cache add spec ampersand-view-switcher@^2.0.0
+90 silly cache add parsed spec { raw: 'ampersand-view-switcher@^2.0.0',
+90 silly cache add   scope: null,
+90 silly cache add   name: 'ampersand-view-switcher',
+90 silly cache add   rawSpec: '^2.0.0',
+90 silly cache add   spec: '>=2.0.0 <3.0.0',
+90 silly cache add   type: 'range' }
+91 silly addNamed ampersand-view-switcher@>=2.0.0 <3.0.0
+92 verbose addNamed ">=2.0.0 <3.0.0" is a valid semver range for ampersand-view-switcher
+93 silly addNameRange { name: 'ampersand-view-switcher',
+93 silly addNameRange   range: '>=2.0.0 <3.0.0',
+93 silly addNameRange   hasData: false }
+94 silly mapToRegistry name ampersand-view-switcher
+95 silly mapToRegistry using default registry
+96 silly mapToRegistry registry https://registry.npmjs.org/
+97 silly mapToRegistry uri https://registry.npmjs.org/ampersand-view-switcher
+98 verbose addNameRange registry:https://registry.npmjs.org/ampersand-view-switcher not in flight; fetching
+99 silly cache add args [ 'andlog@^1.0.0', null ]
+100 verbose cache add spec andlog@^1.0.0
+101 silly cache add parsed spec { raw: 'andlog@^1.0.0',
+101 silly cache add   scope: null,
+101 silly cache add   name: 'andlog',
+101 silly cache add   rawSpec: '^1.0.0',
+101 silly cache add   spec: '>=1.0.0 <2.0.0',
+101 silly cache add   type: 'range' }
+102 silly addNamed andlog@>=1.0.0 <2.0.0
+103 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for andlog
+104 silly addNameRange { name: 'andlog', range: '>=1.0.0 <2.0.0', hasData: false }
+105 silly mapToRegistry name andlog
+106 silly mapToRegistry using default registry
+107 silly mapToRegistry registry https://registry.npmjs.org/
+108 silly mapToRegistry uri https://registry.npmjs.org/andlog
+109 verbose addNameRange registry:https://registry.npmjs.org/andlog not in flight; fetching
+110 silly cache add args [ 'async@^0.9.0', null ]
+111 verbose cache add spec async@^0.9.0
+112 silly cache add parsed spec { raw: 'async@^0.9.0',
+112 silly cache add   scope: null,
+112 silly cache add   name: 'async',
+112 silly cache add   rawSpec: '^0.9.0',
+112 silly cache add   spec: '>=0.9.0 <0.10.0',
+112 silly cache add   type: 'range' }
+113 silly addNamed async@>=0.9.0 <0.10.0
+114 verbose addNamed ">=0.9.0 <0.10.0" is a valid semver range for async
+115 silly addNameRange { name: 'async', range: '>=0.9.0 <0.10.0', hasData: false }
+116 silly mapToRegistry name async
+117 silly mapToRegistry using default registry
+118 silly mapToRegistry registry https://registry.npmjs.org/
+119 silly mapToRegistry uri https://registry.npmjs.org/async
+120 verbose addNameRange registry:https://registry.npmjs.org/async not in flight; fetching
+121 silly cache add args [ 'clientconfig@^1.0.0', null ]
+122 verbose cache add spec clientconfig@^1.0.0
+123 silly cache add parsed spec { raw: 'clientconfig@^1.0.0',
+123 silly cache add   scope: null,
+123 silly cache add   name: 'clientconfig',
+123 silly cache add   rawSpec: '^1.0.0',
+123 silly cache add   spec: '>=1.0.0 <2.0.0',
+123 silly cache add   type: 'range' }
+124 silly addNamed clientconfig@>=1.0.0 <2.0.0
+125 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for clientconfig
+126 silly addNameRange { name: 'clientconfig', range: '>=1.0.0 <2.0.0', hasData: false }
+127 silly mapToRegistry name clientconfig
+128 silly mapToRegistry using default registry
+129 silly mapToRegistry registry https://registry.npmjs.org/
+130 silly mapToRegistry uri https://registry.npmjs.org/clientconfig
+131 verbose addNameRange registry:https://registry.npmjs.org/clientconfig not in flight; fetching
+132 silly cache add args [ 'domify@^1.3.0', null ]
+133 verbose cache add spec domify@^1.3.0
+134 silly cache add parsed spec { raw: 'domify@^1.3.0',
+134 silly cache add   scope: null,
+134 silly cache add   name: 'domify',
+134 silly cache add   rawSpec: '^1.3.0',
+134 silly cache add   spec: '>=1.3.0 <2.0.0',
+134 silly cache add   type: 'range' }
+135 silly addNamed domify@>=1.3.0 <2.0.0
+136 verbose addNamed ">=1.3.0 <2.0.0" is a valid semver range for domify
+137 silly addNameRange { name: 'domify', range: '>=1.3.0 <2.0.0', hasData: false }
+138 silly mapToRegistry name domify
+139 silly mapToRegistry using default registry
+140 silly mapToRegistry registry https://registry.npmjs.org/
+141 silly mapToRegistry uri https://registry.npmjs.org/domify
+142 verbose addNameRange registry:https://registry.npmjs.org/domify not in flight; fetching
+143 silly cache add args [ 'domready@^1.0.5', null ]
+144 verbose cache add spec domready@^1.0.5
+145 silly cache add parsed spec { raw: 'domready@^1.0.5',
+145 silly cache add   scope: null,
+145 silly cache add   name: 'domready',
+145 silly cache add   rawSpec: '^1.0.5',
+145 silly cache add   spec: '>=1.0.5 <2.0.0',
+145 silly cache add   type: 'range' }
+146 silly addNamed domready@>=1.0.5 <2.0.0
+147 verbose addNamed ">=1.0.5 <2.0.0" is a valid semver range for domready
+148 silly addNameRange { name: 'domready', range: '>=1.0.5 <2.0.0', hasData: false }
+149 silly mapToRegistry name domready
+150 silly mapToRegistry using default registry
+151 silly mapToRegistry registry https://registry.npmjs.org/
+152 silly mapToRegistry uri https://registry.npmjs.org/domready
+153 verbose addNameRange registry:https://registry.npmjs.org/domready not in flight; fetching
+154 silly cache add args [ 'favicon-setter@^0.1.1', null ]
+155 verbose cache add spec favicon-setter@^0.1.1
+156 silly cache add parsed spec { raw: 'favicon-setter@^0.1.1',
+156 silly cache add   scope: null,
+156 silly cache add   name: 'favicon-setter',
+156 silly cache add   rawSpec: '^0.1.1',
+156 silly cache add   spec: '>=0.1.1 <0.2.0',
+156 silly cache add   type: 'range' }
+157 silly addNamed favicon-setter@>=0.1.1 <0.2.0
+158 verbose addNamed ">=0.1.1 <0.2.0" is a valid semver range for favicon-setter
+159 silly addNameRange { name: 'favicon-setter',
+159 silly addNameRange   range: '>=0.1.1 <0.2.0',
+159 silly addNameRange   hasData: false }
+160 silly mapToRegistry name favicon-setter
+161 silly mapToRegistry using default registry
+162 silly mapToRegistry registry https://registry.npmjs.org/
+163 silly mapToRegistry uri https://registry.npmjs.org/favicon-setter
+164 verbose addNameRange registry:https://registry.npmjs.org/favicon-setter not in flight; fetching
+165 silly cache add args [ 'getconfig@^2.1.0', null ]
+166 verbose cache add spec getconfig@^2.1.0
+167 silly cache add parsed spec { raw: 'getconfig@^2.1.0',
+167 silly cache add   scope: null,
+167 silly cache add   name: 'getconfig',
+167 silly cache add   rawSpec: '^2.1.0',
+167 silly cache add   spec: '>=2.1.0 <3.0.0',
+167 silly cache add   type: 'range' }
+168 silly addNamed getconfig@>=2.1.0 <3.0.0
+169 verbose addNamed ">=2.1.0 <3.0.0" is a valid semver range for getconfig
+170 silly addNameRange { name: 'getconfig', range: '>=2.1.0 <3.0.0', hasData: false }
+171 silly mapToRegistry name getconfig
+172 silly mapToRegistry using default registry
+173 silly mapToRegistry registry https://registry.npmjs.org/
+174 silly mapToRegistry uri https://registry.npmjs.org/getconfig
+175 verbose addNameRange registry:https://registry.npmjs.org/getconfig not in flight; fetching
+176 silly cache add args [ 'hapi@^8.0.0', null ]
+177 verbose cache add spec hapi@^8.0.0
+178 silly cache add parsed spec { raw: 'hapi@^8.0.0',
+178 silly cache add   scope: null,
+178 silly cache add   name: 'hapi',
+178 silly cache add   rawSpec: '^8.0.0',
+178 silly cache add   spec: '>=8.0.0 <9.0.0',
+178 silly cache add   type: 'range' }
+179 silly addNamed hapi@>=8.0.0 <9.0.0
+180 verbose addNamed ">=8.0.0 <9.0.0" is a valid semver range for hapi
+181 silly addNameRange { name: 'hapi', range: '>=8.0.0 <9.0.0', hasData: false }
+182 silly mapToRegistry name hapi
+183 silly mapToRegistry using default registry
+184 silly mapToRegistry registry https://registry.npmjs.org/
+185 silly mapToRegistry uri https://registry.npmjs.org/hapi
+186 verbose addNameRange registry:https://registry.npmjs.org/hapi not in flight; fetching
+187 silly cache add args [ 'local-links@^1.2.0', null ]
+188 verbose cache add spec local-links@^1.2.0
+189 silly cache add parsed spec { raw: 'local-links@^1.2.0',
+189 silly cache add   scope: null,
+189 silly cache add   name: 'local-links',
+189 silly cache add   rawSpec: '^1.2.0',
+189 silly cache add   spec: '>=1.2.0 <2.0.0',
+189 silly cache add   type: 'range' }
+190 silly addNamed local-links@>=1.2.0 <2.0.0
+191 verbose addNamed ">=1.2.0 <2.0.0" is a valid semver range for local-links
+192 silly addNameRange { name: 'local-links', range: '>=1.2.0 <2.0.0', hasData: false }
+193 silly mapToRegistry name local-links
+194 silly mapToRegistry using default registry
+195 silly mapToRegistry registry https://registry.npmjs.org/
+196 silly mapToRegistry uri https://registry.npmjs.org/local-links
+197 verbose addNameRange registry:https://registry.npmjs.org/local-links not in flight; fetching
+198 silly cache add args [ 'lodash@^3.6.0', null ]
+199 verbose cache add spec lodash@^3.6.0
+200 silly cache add parsed spec { raw: 'lodash@^3.6.0',
+200 silly cache add   scope: null,
+200 silly cache add   name: 'lodash',
+200 silly cache add   rawSpec: '^3.6.0',
+200 silly cache add   spec: '>=3.6.0 <4.0.0',
+200 silly cache add   type: 'range' }
+201 silly addNamed lodash@>=3.6.0 <4.0.0
+202 verbose addNamed ">=3.6.0 <4.0.0" is a valid semver range for lodash
+203 silly addNameRange { name: 'lodash', range: '>=3.6.0 <4.0.0', hasData: false }
+204 silly mapToRegistry name lodash
+205 silly mapToRegistry using default registry
+206 silly mapToRegistry registry https://registry.npmjs.org/
+207 silly mapToRegistry uri https://registry.npmjs.org/lodash
+208 verbose addNameRange registry:https://registry.npmjs.org/lodash not in flight; fetching
+209 silly cache add args [ 'moonboots_hapi@^4.0.0', null ]
+210 verbose cache add spec moonboots_hapi@^4.0.0
+211 silly cache add parsed spec { raw: 'moonboots_hapi@^4.0.0',
+211 silly cache add   scope: null,
+211 silly cache add   name: 'moonboots_hapi',
+211 silly cache add   rawSpec: '^4.0.0',
+211 silly cache add   spec: '>=4.0.0 <5.0.0',
+211 silly cache add   type: 'range' }
+212 silly addNamed moonboots_hapi@>=4.0.0 <5.0.0
+213 verbose addNamed ">=4.0.0 <5.0.0" is a valid semver range for moonboots_hapi
+214 silly addNameRange { name: 'moonboots_hapi',
+214 silly addNameRange   range: '>=4.0.0 <5.0.0',
+214 silly addNameRange   hasData: false }
+215 silly mapToRegistry name moonboots_hapi
+216 silly mapToRegistry using default registry
+217 silly mapToRegistry registry https://registry.npmjs.org/
+218 silly mapToRegistry uri https://registry.npmjs.org/moonboots_hapi
+219 verbose addNameRange registry:https://registry.npmjs.org/moonboots_hapi not in flight; fetching
+220 silly cache add args [ 'stylizer@^2.1.0', null ]
+221 verbose cache add spec stylizer@^2.1.0
+222 silly cache add parsed spec { raw: 'stylizer@^2.1.0',
+222 silly cache add   scope: null,
+222 silly cache add   name: 'stylizer',
+222 silly cache add   rawSpec: '^2.1.0',
+222 silly cache add   spec: '>=2.1.0 <3.0.0',
+222 silly cache add   type: 'range' }
+223 silly addNamed stylizer@>=2.1.0 <3.0.0
+224 verbose addNamed ">=2.1.0 <3.0.0" is a valid semver range for stylizer
+225 silly addNameRange { name: 'stylizer', range: '>=2.1.0 <3.0.0', hasData: false }
+226 silly mapToRegistry name stylizer
+227 silly mapToRegistry using default registry
+228 silly mapToRegistry registry https://registry.npmjs.org/
+229 silly mapToRegistry uri https://registry.npmjs.org/stylizer
+230 verbose addNameRange registry:https://registry.npmjs.org/stylizer not in flight; fetching
+231 silly cache add args [ 'templatizer@^1.0.0', null ]
+232 verbose cache add spec templatizer@^1.0.0
+233 silly cache add parsed spec { raw: 'templatizer@^1.0.0',
+233 silly cache add   scope: null,
+233 silly cache add   name: 'templatizer',
+233 silly cache add   rawSpec: '^1.0.0',
+233 silly cache add   spec: '>=1.0.0 <2.0.0',
+233 silly cache add   type: 'range' }
+234 silly addNamed templatizer@>=1.0.0 <2.0.0
+235 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for templatizer
+236 silly addNameRange { name: 'templatizer', range: '>=1.0.0 <2.0.0', hasData: false }
+237 silly mapToRegistry name templatizer
+238 silly mapToRegistry using default registry
+239 silly mapToRegistry registry https://registry.npmjs.org/
+240 silly mapToRegistry uri https://registry.npmjs.org/templatizer
+241 verbose addNameRange registry:https://registry.npmjs.org/templatizer not in flight; fetching
+242 silly cache add args [ 'ampersand-app@^1.0.0', null ]
+243 verbose cache add spec ampersand-app@^1.0.0
+244 silly cache add parsed spec { raw: 'ampersand-app@^1.0.0',
+244 silly cache add   scope: null,
+244 silly cache add   name: 'ampersand-app',
+244 silly cache add   rawSpec: '^1.0.0',
+244 silly cache add   spec: '>=1.0.0 <2.0.0',
+244 silly cache add   type: 'range' }
+245 silly addNamed ampersand-app@>=1.0.0 <2.0.0
+246 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for ampersand-app
+247 silly addNameRange { name: 'ampersand-app',
+247 silly addNameRange   range: '>=1.0.0 <2.0.0',
+247 silly addNameRange   hasData: false }
+248 silly mapToRegistry name ampersand-app
+249 silly mapToRegistry using default registry
+250 silly mapToRegistry registry https://registry.npmjs.org/
+251 silly mapToRegistry uri https://registry.npmjs.org/ampersand-app
+252 verbose addNameRange registry:https://registry.npmjs.org/ampersand-app not in flight; fetching
+253 verbose request uri https://registry.npmjs.org/ampersand-dom
+254 verbose request no auth needed
+255 info attempt registry request try #1 at 4:19:11 PM
+256 verbose request id 602856f244ed7d79
+257 http request GET https://registry.npmjs.org/ampersand-dom
+258 verbose request uri https://registry.npmjs.org/ampersand-form-view
+259 verbose request no auth needed
+260 info attempt registry request try #1 at 4:19:11 PM
+261 http request GET https://registry.npmjs.org/ampersand-form-view
+262 verbose request uri https://registry.npmjs.org/ampersand-input-view
+263 verbose request no auth needed
+264 info attempt registry request try #1 at 4:19:11 PM
+265 http request GET https://registry.npmjs.org/ampersand-input-view
+266 verbose request uri https://registry.npmjs.org/ampersand-rest-collection
+267 verbose request no auth needed
+268 info attempt registry request try #1 at 4:19:11 PM
+269 http request GET https://registry.npmjs.org/ampersand-rest-collection
+270 verbose request uri https://registry.npmjs.org/ampersand-router
+271 verbose request no auth needed
+272 info attempt registry request try #1 at 4:19:11 PM
+273 http request GET https://registry.npmjs.org/ampersand-router
+274 verbose request uri https://registry.npmjs.org/ampersand-view
+275 verbose request no auth needed
+276 info attempt registry request try #1 at 4:19:11 PM
+277 http request GET https://registry.npmjs.org/ampersand-view
+278 verbose request uri https://registry.npmjs.org/ampersand-view-switcher
+279 verbose request no auth needed
+280 info attempt registry request try #1 at 4:19:11 PM
+281 http request GET https://registry.npmjs.org/ampersand-view-switcher
+282 verbose request uri https://registry.npmjs.org/andlog
+283 verbose request no auth needed
+284 info attempt registry request try #1 at 4:19:11 PM
+285 http request GET https://registry.npmjs.org/andlog
+286 verbose request uri https://registry.npmjs.org/async
+287 verbose request no auth needed
+288 info attempt registry request try #1 at 4:19:11 PM
+289 http request GET https://registry.npmjs.org/async
+290 verbose request uri https://registry.npmjs.org/clientconfig
+291 verbose request no auth needed
+292 info attempt registry request try #1 at 4:19:11 PM
+293 http request GET https://registry.npmjs.org/clientconfig
+294 verbose request uri https://registry.npmjs.org/domify
+295 verbose request no auth needed
+296 info attempt registry request try #1 at 4:19:11 PM
+297 http request GET https://registry.npmjs.org/domify
+298 verbose request uri https://registry.npmjs.org/domready
+299 verbose request no auth needed
+300 info attempt registry request try #1 at 4:19:11 PM
+301 http request GET https://registry.npmjs.org/domready
+302 verbose request uri https://registry.npmjs.org/favicon-setter
+303 verbose request no auth needed
+304 info attempt registry request try #1 at 4:19:11 PM
+305 http request GET https://registry.npmjs.org/favicon-setter
+306 verbose request uri https://registry.npmjs.org/getconfig
+307 verbose request no auth needed
+308 info attempt registry request try #1 at 4:19:11 PM
+309 http request GET https://registry.npmjs.org/getconfig
+310 verbose request uri https://registry.npmjs.org/hapi
+311 verbose request no auth needed
+312 info attempt registry request try #1 at 4:19:11 PM
+313 http request GET https://registry.npmjs.org/hapi
+314 verbose request uri https://registry.npmjs.org/local-links
+315 verbose request no auth needed
+316 info attempt registry request try #1 at 4:19:11 PM
+317 http request GET https://registry.npmjs.org/local-links
+318 verbose request uri https://registry.npmjs.org/moonboots_hapi
+319 verbose request no auth needed
+320 info attempt registry request try #1 at 4:19:11 PM
+321 http request GET https://registry.npmjs.org/moonboots_hapi
+322 verbose request uri https://registry.npmjs.org/stylizer
+323 verbose request no auth needed
+324 info attempt registry request try #1 at 4:19:11 PM
+325 http request GET https://registry.npmjs.org/stylizer
+326 verbose request uri https://registry.npmjs.org/templatizer
+327 verbose request no auth needed
+328 info attempt registry request try #1 at 4:19:11 PM
+329 http request GET https://registry.npmjs.org/templatizer
+330 verbose request uri https://registry.npmjs.org/ampersand-app
+331 verbose request no auth needed
+332 info attempt registry request try #1 at 4:19:11 PM
+333 http request GET https://registry.npmjs.org/ampersand-app
+334 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org
+335 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org
+336 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org
+337 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org
+338 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org
+339 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org
+340 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org
+341 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org
+342 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org
+343 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org
+344 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org
+345 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org
+346 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org
+347 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org
+348 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org
+349 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org
+350 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org
+351 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org
+352 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org
+353 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org
+354 verbose request uri https://registry.npmjs.org/ampersand-model
+355 verbose request no auth needed
+356 info attempt registry request try #1 at 4:19:11 PM
+357 verbose etag "7GYJQX61IQ3HG38SMARTT09T8"
+358 http request GET https://registry.npmjs.org/ampersand-model
+359 verbose request uri https://registry.npmjs.org/lodash
+360 verbose request no auth needed
+361 info attempt registry request try #1 at 4:19:11 PM
+362 verbose etag "C1KCO6W9UZFQ1D9BX8XB2XX22"
+363 http request GET https://registry.npmjs.org/lodash
+364 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org
+365 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org
+366 info attempt registry request try #2 at 4:19:21 PM
+367 http request GET https://registry.npmjs.org/ampersand-dom
+368 info attempt registry request try #2 at 4:19:21 PM
+369 http request GET https://registry.npmjs.org/ampersand-form-view
+370 info attempt registry request try #2 at 4:19:21 PM
+371 http request GET https://registry.npmjs.org/ampersand-input-view
+372 info attempt registry request try #2 at 4:19:21 PM
+373 http request GET https://registry.npmjs.org/ampersand-rest-collection
+374 info attempt registry request try #2 at 4:19:21 PM
+375 http request GET https://registry.npmjs.org/ampersand-router
+376 info attempt registry request try #2 at 4:19:21 PM
+377 http request GET https://registry.npmjs.org/ampersand-view
+378 info attempt registry request try #2 at 4:19:21 PM
+379 http request GET https://registry.npmjs.org/ampersand-view-switcher
+380 info attempt registry request try #2 at 4:19:21 PM
+381 http request GET https://registry.npmjs.org/andlog
+382 info attempt registry request try #2 at 4:19:21 PM
+383 http request GET https://registry.npmjs.org/async
+384 info attempt registry request try #2 at 4:19:21 PM
+385 http request GET https://registry.npmjs.org/clientconfig
+386 info attempt registry request try #2 at 4:19:21 PM
+387 http request GET https://registry.npmjs.org/domify
+388 info attempt registry request try #2 at 4:19:21 PM
+389 http request GET https://registry.npmjs.org/domready
+390 info attempt registry request try #2 at 4:19:21 PM
+391 http request GET https://registry.npmjs.org/favicon-setter
+392 info attempt registry request try #2 at 4:19:21 PM
+393 http request GET https://registry.npmjs.org/getconfig
+394 info attempt registry request try #2 at 4:19:21 PM
+395 http request GET https://registry.npmjs.org/hapi
+396 info attempt registry request try #2 at 4:19:21 PM
+397 http request GET https://registry.npmjs.org/local-links
+398 info attempt registry request try #2 at 4:19:21 PM
+399 http request GET https://registry.npmjs.org/moonboots_hapi
+400 info attempt registry request try #2 at 4:19:21 PM
+401 http request GET https://registry.npmjs.org/stylizer
+402 info attempt registry request try #2 at 4:19:21 PM
+403 http request GET https://registry.npmjs.org/templatizer
+404 info attempt registry request try #2 at 4:19:21 PM
+405 http request GET https://registry.npmjs.org/ampersand-app
+406 info attempt registry request try #2 at 4:19:21 PM
+407 verbose etag "7GYJQX61IQ3HG38SMARTT09T8"
+408 http request GET https://registry.npmjs.org/ampersand-model
+409 info attempt registry request try #2 at 4:19:21 PM
+410 verbose etag "C1KCO6W9UZFQ1D9BX8XB2XX22"
+411 http request GET https://registry.npmjs.org/lodash
+412 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org
+413 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org
+414 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org
+415 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org
+416 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org
+417 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org
+418 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org
+419 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org
+420 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org
+421 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org
+422 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org
+423 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org
+424 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org
+425 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org
+426 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org
+427 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org
+428 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org
+429 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org
+430 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org
+431 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org
+432 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org
+433 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org
+434 info attempt registry request try #3 at 4:20:21 PM
+435 http request GET https://registry.npmjs.org/ampersand-dom
+436 info attempt registry request try #3 at 4:20:21 PM
+437 http request GET https://registry.npmjs.org/ampersand-form-view
+438 info attempt registry request try #3 at 4:20:21 PM
+439 http request GET https://registry.npmjs.org/ampersand-input-view
+440 info attempt registry request try #3 at 4:20:21 PM
+441 http request GET https://registry.npmjs.org/ampersand-rest-collection
+442 info attempt registry request try #3 at 4:20:21 PM
+443 http request GET https://registry.npmjs.org/ampersand-router
+444 info attempt registry request try #3 at 4:20:21 PM
+445 http request GET https://registry.npmjs.org/ampersand-view
+446 info attempt registry request try #3 at 4:20:21 PM
+447 http request GET https://registry.npmjs.org/ampersand-view-switcher
+448 info attempt registry request try #3 at 4:20:21 PM
+449 http request GET https://registry.npmjs.org/andlog
+450 info attempt registry request try #3 at 4:20:21 PM
+451 http request GET https://registry.npmjs.org/async
+452 info attempt registry request try #3 at 4:20:21 PM
+453 http request GET https://registry.npmjs.org/clientconfig
+454 info attempt registry request try #3 at 4:20:21 PM
+455 http request GET https://registry.npmjs.org/domify
+456 info attempt registry request try #3 at 4:20:21 PM
+457 http request GET https://registry.npmjs.org/domready
+458 info attempt registry request try #3 at 4:20:21 PM
+459 http request GET https://registry.npmjs.org/favicon-setter
+460 info attempt registry request try #3 at 4:20:21 PM
+461 http request GET https://registry.npmjs.org/getconfig
+462 info attempt registry request try #3 at 4:20:21 PM
+463 http request GET https://registry.npmjs.org/hapi
+464 info attempt registry request try #3 at 4:20:21 PM
+465 http request GET https://registry.npmjs.org/local-links
+466 info attempt registry request try #3 at 4:20:21 PM
+467 http request GET https://registry.npmjs.org/moonboots_hapi
+468 info attempt registry request try #3 at 4:20:21 PM
+469 http request GET https://registry.npmjs.org/stylizer
+470 info attempt registry request try #3 at 4:20:21 PM
+471 http request GET https://registry.npmjs.org/templatizer
+472 info attempt registry request try #3 at 4:20:21 PM
+473 http request GET https://registry.npmjs.org/ampersand-app
+474 info attempt registry request try #3 at 4:20:21 PM
+475 verbose etag "7GYJQX61IQ3HG38SMARTT09T8"
+476 http request GET https://registry.npmjs.org/ampersand-model
+477 info attempt registry request try #3 at 4:20:21 PM
+478 verbose etag "C1KCO6W9UZFQ1D9BX8XB2XX22"
+479 http request GET https://registry.npmjs.org/lodash
+480 silly get cb [ 304, undefined ]
+481 verbose etag https://registry.npmjs.org/ampersand-model from cache
+482 verbose get saving ampersand-model to /Users/bear/.npm/registry.npmjs.org/ampersand-model/.cache.json
+483 silly get cb [ 304, undefined ]
+484 verbose etag https://registry.npmjs.org/lodash from cache
+485 verbose get saving lodash to /Users/bear/.npm/registry.npmjs.org/lodash/.cache.json
+486 silly addNameRange number 2 { name: 'ampersand-model',
+486 silly addNameRange   range: '>=5.0.3 <6.0.0',
+486 silly addNameRange   hasData: true }
+487 silly addNameRange versions [ 'ampersand-model',
+487 silly addNameRange   [ '2.7.0',
+487 silly addNameRange     '2.7.1',
+487 silly addNameRange     '2.7.2',
+487 silly addNameRange     '2.8.0',
+487 silly addNameRange     '2.9.1',
+487 silly addNameRange     '2.10.0',
+487 silly addNameRange     '2.10.1',
+487 silly addNameRange     '2.10.2',
+487 silly addNameRange     '2.10.3',
+487 silly addNameRange     '2.10.4',
+487 silly addNameRange     '2.10.5',
+487 silly addNameRange     '2.10.6',
+487 silly addNameRange     '2.10.7',
+487 silly addNameRange     '3.0.0',
+487 silly addNameRange     '3.0.1',
+487 silly addNameRange     '3.0.2',
+487 silly addNameRange     '3.0.3',
+487 silly addNameRange     '3.0.4',
+487 silly addNameRange     '4.0.0',
+487 silly addNameRange     '4.0.1',
+487 silly addNameRange     '4.0.2',
+487 silly addNameRange     '4.0.3',
+487 silly addNameRange     '4.0.4',
+487 silly addNameRange     '4.1.0',
+487 silly addNameRange     '5.0.0',
+487 silly addNameRange     '5.0.1',
+487 silly addNameRange     '5.0.2',
+487 silly addNameRange     '5.0.3' ] ]
+488 silly addNamed ampersand-model@5.0.3
+489 verbose addNamed "5.0.3" is a plain semver version for ampersand-model
+490 silly addNameRange number 2 { name: 'lodash', range: '>=3.6.0 <4.0.0', hasData: true }
+491 silly addNameRange versions [ 'lodash',
+491 silly addNameRange   [ '0.1.0',
+491 silly addNameRange     '0.2.0',
+491 silly addNameRange     '0.2.1',
+491 silly addNameRange     '0.2.2',
+491 silly addNameRange     '0.3.0',
+491 silly addNameRange     '0.3.1',
+491 silly addNameRange     '0.3.2',
+491 silly addNameRange     '0.4.0',
+491 silly addNameRange     '0.4.1',
+491 silly addNameRange     '0.4.2',
+491 silly addNameRange     '0.5.0-rc.1',
+491 silly addNameRange     '0.5.0',
+491 silly addNameRange     '0.5.1',
+491 silly addNameRange     '0.5.2',
+491 silly addNameRange     '0.6.0',
+491 silly addNameRange     '0.6.1',
+491 silly addNameRange     '0.7.0',
+491 silly addNameRange     '0.8.0',
+491 silly addNameRange     '0.8.1',
+491 silly addNameRange     '0.8.2',
+491 silly addNameRange     '0.9.0',
+491 silly addNameRange     '0.9.1',
+491 silly addNameRange     '0.9.2',
+491 silly addNameRange     '0.10.0',
+491 silly addNameRange     '1.0.0-rc.1',
+491 silly addNameRange     '1.0.0-rc.2',
+491 silly addNameRange     '1.0.0-rc.3',
+491 silly addNameRange     '1.0.0',
+491 silly addNameRange     '1.0.1',
+491 silly addNameRange     '1.1.0',
+491 silly addNameRange     '1.1.1',
+491 silly addNameRange     '1.2.0',
+491 silly addNameRange     '1.2.1',
+491 silly addNameRange     '1.3.0',
+491 silly addNameRange     '1.3.1',
+491 silly addNameRange     '2.0.0',
+491 silly addNameRange     '2.1.0',
+491 silly addNameRange     '2.2.0',
+491 silly addNameRange     '2.2.1',
+491 silly addNameRange     '2.3.0',
+491 silly addNameRange     '2.4.0',
+491 silly addNameRange     '2.4.1',
+491 silly addNameRange     '3.0.0',
+491 silly addNameRange     '3.0.1',
+491 silly addNameRange     '3.1.0',
+491 silly addNameRange     '3.2.0',
+491 silly addNameRange     '3.3.0',
+491 silly addNameRange     '3.3.1',
+491 silly addNameRange     '3.4.0',
+491 silly addNameRange     '3.5.0',
+491 silly addNameRange     '3.6.0',
+491 silly addNameRange     '1.0.2',
+491 silly addNameRange     '3.7.0',
+491 silly addNameRange     '2.4.2',
+491 silly addNameRange     '3.8.0',
+491 silly addNameRange     '3.9.0',
+491 silly addNameRange     '3.9.1' ] ]
+492 silly addNamed lodash@3.9.1
+493 verbose addNamed "3.9.1" is a plain semver version for lodash
+494 silly cache afterAdd lodash@3.9.1
+495 verbose afterAdd /Users/bear/.npm/lodash/3.9.1/package/package.json not in flight; writing
+496 silly cache afterAdd ampersand-model@5.0.3
+497 verbose afterAdd /Users/bear/.npm/ampersand-model/5.0.3/package/package.json not in flight; writing
+498 verbose afterAdd /Users/bear/.npm/ampersand-model/5.0.3/package/package.json written
+499 verbose afterAdd /Users/bear/.npm/lodash/3.9.1/package/package.json written
+500 verbose stack Error: getaddrinfo ENOTFOUND registry.npmjs.org
+500 verbose stack     at errnoException (dns.js:44:10)
+500 verbose stack     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:94:26)
+501 verbose cwd /Users/bear/src/ampersand-foo/foo
+502 error Darwin 14.1.0
+503 error argv "node" "/usr/local/bin/npm" "install"
+504 error node v0.12.3
+505 error npm  v2.9.1
+506 error code ENOTFOUND
+507 error errno ENOTFOUND
+508 error syscall getaddrinfo
+509 error network getaddrinfo ENOTFOUND registry.npmjs.org
+509 error network This is most likely not a problem with npm itself
+509 error network and is related to network connectivity.
+509 error network In most cases you are behind a proxy or have bad network settings.
+509 error network
+509 error network If you are behind a proxy, please make sure that the
+509 error network 'proxy' config is set properly.  See: 'npm help config'
+510 verbose exit [ 1, true ]
